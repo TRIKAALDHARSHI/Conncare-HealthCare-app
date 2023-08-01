@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navbar-raj {
+  background-color: #008374;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+.navbar-raj ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.navbar-raj li {
+  list-style: none;
+  margin: 13px 20px;
+}
+.navbar-raj li a {
+  padding: 3px 3px;
+  text-decoration: none;
+  color: white;
+  transition-duration: 0.3s;
+}
+.navbar-raj li a:hover {
+  font-weight: bold;
+}
+.nav-logo-raj {
+  font-size: 25px;
+  padding: 0 15px;
+  font-weight: bold;
+  color: white;
+}
+.search-raj {
+  position: absolute;
+  right: 0;
+  color: white;
+  padding: 12px 75px;
+}
+.search-raj input {
+  border: 2px solid #008374;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 7px;
+  padding: 8px 17px;
+  color: #008374;
+  background: white;
+  transition-duration: 0.3s;
+}
+/* navbar */
+
+/* search-medicine */
+.con2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+#SearchAns {
+  width: 80vw;
+  height: 10vh;
+  text-align: justify;
+}
+.container-rogh {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-rogh-main-head {
+  margin: 20px 0;
+  font-size: 50px;
+  font-weight: bold;
+  color: #008374;
+  text-align: left;
+}
+.container-rogh-main-search {
+  position: relative;
+}
+
+#search-input {
+  padding: 0 10px;
+  height: 7vh;
+  width: 45vw;
+  border: 1px solid #008374;
+  box-sizing: border-box;
+  outline: none;
+}
+.container-rogh-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-rogh-main-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-rogh-main-search-file {
+  margin-top: 15px;
+}
+label i {
+  color: #008374;
+  font-size: large;
+  margin-left: -35px;
+  margin-right: 17px;
+}
+.container-rogh-main-submit {
+  margin-left: -5px;
+  height: 7vh;
+  width: 10vw;
+  font-size: 20px;
+  font-weight: bold;
+  background: none;
+  border: 1px solid rgb(36, 176, 120);
+  transition-duration: 0.3s;
+  border-left: none;
+  background: #008374;
+  color: white;
+}
+.container-rogh-main-submit:hover {
+  background: none;
+  color: #008374;
+}
+#search-list {
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 0;
+  display: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+#search-list li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+#search-list li:hover {
+  background-color: #f1f1f1;
+}

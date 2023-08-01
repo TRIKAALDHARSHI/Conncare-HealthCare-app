@@ -1,0 +1,32 @@
+.blog-header {
+  color: white;
+  background-color: #009f8c;
+  width: 100%;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.blog-card-main {
+  margin: 40px 0;
+  width: 80vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+.blog-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  margin-top: 20px;
+  cursor: pointer;
+}
+.card:hover .card-title {
+  transition-duration: 0.3s;
+  color: #008374;
+}
